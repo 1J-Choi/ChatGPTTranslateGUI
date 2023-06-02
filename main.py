@@ -18,7 +18,7 @@ class MyApp(QWidget):
         self.languges = QComboBox()
         self.languges.setFixedWidth(200)
         self.languges.setFixedHeight(30)
-        for i in ["english", "japanese", "chinese"]:
+        for i in ["English", "Japanese", "Chinese", "Korean", "Spanish", "French", "German", "Italian", "Portuguese", "Dutch", "Russian"]:
             self.languges.addItem(i)
 
         btn_1 = QPushButton('번역')
