@@ -60,7 +60,7 @@ class MyApp(QWidget):
             temperature=0
         )
 
-        self.translated_text.setText(response['choices'][0]['text'])
+        self.translated_text.setText(response['choices'][0]['text'].lstrip('\n\n'))
 
 
 if(__name__ == '__main__'):
